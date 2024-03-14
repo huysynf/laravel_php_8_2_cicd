@@ -1,5 +1,4 @@
-# Use PHP 8.1 Alpine as base image
-FROM php:8.1-alpine
+FROM php:8.2-alpine
 
 # Install system dependencies
 RUN apk update && \
